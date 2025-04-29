@@ -1,0 +1,298 @@
+body{
+    background-image: url(IMAGENES/Fondo3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: rgb(204, 238, 188);
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: 'Lexend', sans-serif;
+    align-items: center;
+    overflow: auto;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+h1{
+    text-align: center;
+    position: relative;
+    top: 80px;
+}
+
+h2{
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Lexend', sans-serif;
+
+    
+}
+
+.sub1 {
+    text-align: center;
+    position: relative;
+    top: 0px;
+
+}
+
+.Sub3 {
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-size: 36px;
+}
+
+.sub2 {
+    text-align: center;
+    position: relative;
+    top: 00px;
+    font-size: 50px;
+}
+
+.Button{
+    position: absolute;
+    top: 10px;
+    background-color: transparent;
+    color: white;
+    border: transparent;
+    cursor: pointer;
+    font-size: 24px;
+    left: 75px;
+    font-family: 'Lexend', sans-serif;
+}
+
+.Container{
+    position: fixed;   
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 50px;
+    background-color: rgba(28, 28, 28, 0.8);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    backdrop-filter: blur(25px);
+
+}
+
+
+
+a{
+    color: white;
+    font-family: 'Lexend', sans-serif;
+    padding: 10px;
+    text-decoration: none;
+    
+}
+
+.MenuHorizontal{
+    padding: 0;
+    margin-top: -20px;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.MenuHorizontal li{
+    position: relative;
+    top: -10px;
+    display: inline-block;   
+    padding: 10px; 
+}
+
+.MenuVertical{
+    display: none;
+    position: absolute;
+    list-style: none;
+    top: 100%;
+    left: -25px;
+    background-color: rgba(28, 28, 28, 1);
+    margin: 14px ;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.MenuHorizontal li:hover .MenuVertical {
+    display: block;
+}
+
+.MenuVertical ul{
+    display: block;
+}
+
+.MenuVertical li {
+    width: 125px;
+    padding: 10px;
+
+}
+
+
+
+.AcercaDe:hover {
+    color: darkgray;
+}
+
+.Button:hover{
+    color: darkgray;
+}
+
+.Inicio:hover{
+    color: darkgray;
+    
+}
+
+.FDF:hover{
+    color: darkgray;
+}
+
+.HN:hover{
+    color: darkgray;
+}
+
+.Consejos:hover{
+    color: darkgray;
+}
+
+p{
+    text-align: center;
+}
+
+.iconos {
+    text-align: center;
+}
+
+.reciclaje{
+
+    background-color: rgba(62, 182, 44, 0.359);
+    padding: 1px;
+    margin: 1px auto;
+    width: 600px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    transition: transform 0.3s;
+    position: relative;
+    top: 100px;
+}
+
+.reciclaje:hover{
+    transform: scale(1.05);
+}
+
+.reciclaje h2{
+    position: absolute;
+    top: -10px;
+}
+
+.reciclaje p{
+    position: absolute;
+    top: 100px;
+}
+
+.imagenL {
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    left: 25px;
+    
+    border-radius: 10px;
+}
+
+.imagenL2 {
+    width: 300px;
+    height: 300px;
+}
+
+
+
+.QER{
+    position: relative;
+    top: 110px;
+}
+
+.Importancia{
+    background-color: rgba(62, 182, 44, 0.359);
+    padding: 10px 20px ;
+    margin: 1px auto;
+    width: 600px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    z-index: 1;
+    transition: transform 0.3s;
+    position: relative;
+    top: 150px;
+
+
+}
+
+.Importancia:hover{
+    transform: scale(1.05);
+}
+
+.Importancia ul li {
+    margin: 15px 0;
+}
+
+.Importancia h2{
+    position: absolute;
+    top: -10px;
+}
+
+.Importancia p {
+    position: absolute;
+    top: 100px;
+}
+
+.Importancia h3{
+    position: absolute;
+    top: 150px;
+}
+
+.Importancia ul{
+    position: relative;
+    top: 125px;
+}
+
+
+.Cuadro{
+    position: relative;
+    top: 100px;
+    margin: 100px;
+}
+
+.Cuadro h2{
+    top: 10px;
+}
+
+.Imgcontainer{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    margin-top: 100px;
+
+}
+
+.marquee-container{
+    position: relative;
+    bottom: 86px;
+    
+}
+
+header h1 {
+    position: relative;
+    top: 0px;
+}
+
