@@ -1,0 +1,169 @@
+body{
+    background-image: url(IMAGENES/Fondo3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: rgb(204, 238, 188);
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: 'Lexend', sans-serif;
+    align-items: center;
+    overflow: auto;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+h1{
+    text-align: center;
+    position: relative;
+    top: 100px;
+    font-size: 48px;
+}
+
+.Button{
+    position: absolute;
+    top: 10px;
+    background-color: transparent;
+    color: white;
+    border: transparent;
+    cursor: pointer;
+    font-size: 24px;
+    left: 75px;
+    font-family: 'Lexend',
+}
+
+.Container{
+    position: fixed;   
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 50px;
+    background-color: rgba(28, 28, 28, 0.8);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    backdrop-filter: blur(25px);
+
+}
+
+
+
+a{
+    color: white;
+    font-family: 'Lexend', sans-serif;
+    padding: 10px;
+    text-decoration: none;
+    
+}
+
+.MenuHorizontal{
+    padding: 0;
+    margin-top: -20px;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.MenuHorizontal li{
+    position: relative;
+    top: -10px;
+    display: inline-block;   
+    padding: 10px; 
+}
+
+.MenuVertical{
+    display: none;
+    position: absolute;
+    list-style: none;
+    top: 100%;
+    left: -25px;
+    background-color: rgba(28, 28, 28, 1);
+    margin: 14px ;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.MenuHorizontal li:hover .MenuVertical {
+    display: block;
+}
+
+.MenuVertical ul{
+    display: block;
+}
+
+.MenuVertical li {
+    width: 125px;
+    padding: 10px;
+
+}
+
+
+.Button:hover{
+    color: darkgray;
+}
+
+.Inicio:hover{
+    color: darkgray;
+}
+
+.FDF:hover{
+    color: darkgray;
+}
+
+.HN:hover{
+    color: darkgray;
+}
+
+.Consejos:hover{
+    color: darkgray;
+}
+
+.imagenL {
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    left: 25px;
+    
+    border-radius: 10px;
+}
+
+
+
+.manualidades  {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    margin: 4.5%;
+    display: inline-block;
+    width: 280px;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0px 4px 10px rgba(97, 1, 1, 0.2);
+    color: white;
+    text-align: center;
+}
+
+.manualidades img {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+
+}
+
+.Lampara {
+    width: 50%;
+}
+
+.manualidades:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 6px 15px rgba(255, 255, 255, 0.4);
+}
+
+.AContinuacion {
+    font-size: 24px;
+}
+
